@@ -42,6 +42,7 @@ public class HotelAppLoginTest {
 	public void i_enter_username_as(String string) {
 
 		 driver.findElement(By.id("username")).sendKeys(string);
+		System.out.println("hello");
 
 	}
 	 
